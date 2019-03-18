@@ -1,0 +1,107 @@
+* {
+	box-sizing: border-box;
+	font-family: Montserrat, sans-serif;
+}
+
+html, body { 
+	height: 100%;
+}
+#navigation {
+	height: 8rem;
+	background-color: #4A235A;
+	display: inline-block;
+	width:100%;
+}
+
+#navigation img {
+	height: 60%;
+	width: auto;
+	top : 50%;
+	transform: translateY( -50% );
+	position: relative;
+	float : left;
+	margin-left : 1rem;
+}
+
+#navigation span {
+	color : white;
+	top : 50%;
+	transform: translateY( -50% );
+	position: relative;	
+	float: left;	
+	margin-left : 1rem;
+	font-size: 2.5rem;	
+	display: inline-block;
+}
+
+#channels {
+	width: 15%;
+	display: inline-block;
+	background-color: #AF7AC5;  
+	height: 100%;
+	padding-left : 0.5rem;
+	float : left;
+}
+
+#channels h2 {
+	font-size: 1.2rem;
+}
+
+#messages {
+	width: 85%;
+	display: inline-block;
+	height: 100%;
+	background-color: #D6DBDF;
+	float : left;
+}
+
+.odd-rows {
+	background-color: #EAECEE;
+}
+
+.even-rows {
+	background-color: #F8F9F9;	
+}
+
+article {
+	display: inline-block;
+	width : 100%;
+	padding : 1rem 0;
+}
+article header , article section {
+	display: inline-block;
+}
+
+article header {
+	width : 13%;
+	float : left;
+}
+article section {
+	width : 86%;
+	line-height: 1.5rem;
+	float : left;
+}
+header img {
+	width : 3rem;
+	height: auto;
+	margin : 15% 30%;
+}
+
+section#nav-options {
+	float: left;
+	display: inline-block;
+	width: 20rem;
+	vertical-align: middle;				
+}
+
+.red {
+	color : red;
+}
+
+#green {
+	color : green;
+}
+
+h2 {
+	color : white !important;
+}
